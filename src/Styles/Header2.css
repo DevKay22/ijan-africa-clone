@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+
+.hd2{
+    position: sticky;
+    background-color: #f0efef;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+    overflow: hidden;
+  
+    /* border: 1px solid red; */
+   
+    height: 100px;
+}
+
+.logo{
+    /* border: 1px solid red; */
+
+     /* height: 100%;  */
+    margin-right: 0;
+    height: 100%;
+    
+}
+
+.logo1{
+    /* margin-left: 100px; */
+    width: 250px;
+    height: 90%;
+}
+
+.navigation{
+    /* border: 1px solid red; */
+    height: 100%;
+    margin-left: 0;
+    width: 650px;
+    
+}
+
+.bisearch{
+    /* border: 1px solid red; */
+    width: 25px;
+    margin-bottom: 2px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+
+.navigation ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.navigation ul li a{
+    font-size: 0.9em;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: .5s;
+
+}
+
+.navigation ul li a:hover{
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+.home{
+    color: green;
+}

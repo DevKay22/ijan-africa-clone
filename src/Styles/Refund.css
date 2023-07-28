@@ -1,0 +1,22 @@
+.refund{
+    margin-top: 100px;
+    background-color: red;
+    height: 300px;
+    
+}
+
+.no{
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    padding-top: 50px;
+
+}
+
+.all{
+    text-align: center;
+    color: #fff;
+    padding: 5px 30px;
+    font-size: 0.94em;
+    letter-spacing: 0.1px;
+}

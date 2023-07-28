@@ -1,0 +1,38 @@
+.aboutUs{
+    /* border: 1px solid red; */
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutUs div{
+    width: 50%;
+    margin-left: 150px;
+}
+
+.whoWe{
+  margin-bottom: 10px;
+  font-size: 1.9em;
+}
+
+.abtText{
+    font-weight: 100;
+    color: gray;
+    font-size: 0.975em;
+    line-height: 25px;
+}
+
+.ijaan{
+    width: 400px;
+}
+
+.brain{
+    
+    height: 200px;
+}
+
+.brainstorm{
+    height: 100%;
+    width: 70%;
+}

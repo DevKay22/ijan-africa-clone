@@ -1,0 +1,71 @@
+.testi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+}
+
+.testi div{
+    margin-top: 15px;
+}
+
+.story{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.story div{
+    width: 30%
+}
+
+.tesText{
+    font-size: 0.9em;
+    color: rgb(9, 69, 9);
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+}
+
+.whatStudents{
+    font-size: 3.5em;
+    font-weight: 1500;
+    margin-bottom: 100px;
+}
+
+.story .testimo .testii{
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    font-size: 0.9em;
+    line-height: 25px;
+    
+    
+    
+}
+
+.name{
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+
+}
+
+.place{
+    text-align: center;
+    color: #006B3C;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+.story .testimo .testii:hover{
+    color: #fff;
+    background-color: #006B3C;
+    position: relative;
+    top: -50px;
+    cursor: pointer;
+}
+
